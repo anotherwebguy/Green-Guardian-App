@@ -32,12 +32,10 @@ Follow these instructions to set up and run the Green Guardian App on your local
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/anotherwebguy/Green Guardian-App.git
-cd Green Guardian-App
+git clone https://github.com/anotherwebguy/Green-Guardian-App.git
+cd Green-Guardian-App
 
 2. Create a Virtual Environment
-
-Using venv
 
 On Windows:
 
@@ -62,8 +60,6 @@ docker pull qdrant/qdrant
 docker run -p 6333:6333 -p 6334:6334 \
     -v "$(pwd)/qdrant_storage:/qdrant/storage:z" \
     qdrant/qdrant
-
-Start the Streamlit app using the following command:
 
 5. Run the App
 
